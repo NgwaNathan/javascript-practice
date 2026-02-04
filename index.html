@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <title>Document</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <nav class="nav__bar">
+      <div class="nav_box">
+        <ul>
+          <li><a href="http://gmail.com">gmail</a></li>
+          <li><a href="http://gmail.com">images</a></li>
+          <li><p class="nav_ul_p">N</p></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main_box">
+      <div class="main_box_header">
+        <h1>Google</h1>
+      </div>
+      <div class="main_box_search">
+        <input
+          type="main_box_search"
+          placeholder="Search Google or type a URL"
+        />
+      </div>
+      <div class="main_box_suggestions">
+        <div class="main_box_suggestion_1">
+          <div class="main_box_suggestion_1_image">
+            <img
+              src="assets/Youtube_logo.png"
+              alt="youtube"
+              class="youtube_image"
+            />
+          </div>
+          <p class="main_box_suggestion_1_text">Youtube</p>
+        </div>
+      </div>
+      <div class="main_box_suggestion_2">
+        <div class="main_box_suggestion_2_image">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p class="main_box_suggestion_2_text" id="lord">Add Shortcut</p>
+        <button onclick="changeTextColor()" id="greenButton">
+          click to change color
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
