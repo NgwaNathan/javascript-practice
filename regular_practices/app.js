@@ -122,3 +122,15 @@ function changeTextColor() {
   document.querySelector("#lord").style.color = "red";
   document.querySelector("#greenButton").style.backgroundColor = "green";
 }
+
+function toggleSidebar() {
+  document.querySelector("body").classList.toggle("open");
+}
+
+// async javascript
+
+function greet(name) {
+  console.log("hellow", name);
+}
+
+setTimeout(greet, 2000, "nathan");
